@@ -86,13 +86,13 @@ class task1State extends State<task1> {
             left: 85,
           ),
           cardconunt(Colors.deepOrange, Colors.white, Colors.white,
-              Colors.black26, 260, 190, 20, 'Bathroom', '1 device'),
+              Colors.black26, 260, null, 20, 'Bathroom', '1 device'),
           cardconunt(Colors.white, Colors.deepOrange, Colors.black,
-              Colors.black38, 260, 20, 190, 'Living room', '4 device'),
+              Colors.black38, 260, 20, null, 'Living room', '4 device'),
           cardconunt(Colors.white, Colors.deepOrange, Colors.black,
-              Colors.black38, 420, 190, 20, 'Bed room', '2 device'),
+              Colors.black38, 420, null, 20, 'Bed room', '2 device'),
           cardconunt(Colors.white, Colors.deepOrange, Colors.black,
-              Colors.black38, 420, 20, 190, 'Living room', '1 device'),
+              Colors.black38, 420, 20, null, 'Living room', '1 device'),
           Positioned(
             bottom: 0,
             child: Container(
